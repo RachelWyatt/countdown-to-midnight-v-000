@@ -2,9 +2,10 @@
 
 def countdown (integer)
   x = integer
-  x -= 1
+  
   until x = 0
-    puts "-#{integer} SECOND(S)!"
+    puts "#{integer} SECOND(S)!"
+    x -= 1
+  end
    "HAPPY NEW YEAR!"
- end
 end
