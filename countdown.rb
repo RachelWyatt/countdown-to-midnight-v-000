@@ -2,7 +2,7 @@
 
 def countdown (integer)
   x = integer
-  
+
   until x = 0
     puts "#{integer} SECOND(S)!"
     x -= 1
